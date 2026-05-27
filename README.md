@@ -26,6 +26,8 @@ EcoTrack is an Android application developed using Kotlin and Firebase to simpli
 ## Screens Included
 
 - Login Screen
+  <img width="454" height="798" alt="image" src="https://github.com/user-attachments/assets/ae2981e5-32ed-41d4-a70f-b597c11c1060" />
+
 - Signup Screen
 - Dashboard
 - Waste Reporting Screen
