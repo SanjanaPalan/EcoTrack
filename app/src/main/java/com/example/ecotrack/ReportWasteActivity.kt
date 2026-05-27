@@ -18,7 +18,13 @@ class ReportWasteActivity : AppCompatActivity() {
         val etWasteType = findViewById<EditText>(R.id.etWasteType)
         val etLocation = findViewById<EditText>(R.id.etLocation)
         val etDescription = findViewById<EditText>(R.id.etDescription)
+
         val btnSubmitReport = findViewById<Button>(R.id.btnSubmitReport)
+        val btnBack = findViewById<Button>(R.id.btnBack)
+
+        btnBack.setOnClickListener {
+            finish()
+        }
 
         btnSubmitReport.setOnClickListener {
 
@@ -35,9 +41,9 @@ class ReportWasteActivity : AppCompatActivity() {
                 val report = hashMapOf(
                     "wasteType" to wasteType,
                     "location" to location,
-                    "description" to description
+                    "description" to description,
+                    "status" to "Pending"
                 )
-
                 database.reference
                     .child("waste_reports")
                     .push()

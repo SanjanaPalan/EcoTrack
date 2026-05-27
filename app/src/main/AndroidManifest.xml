@@ -13,33 +13,32 @@
         android:theme="@style/Theme.EcoTrack">
 
         <activity
+            android:name=".PickupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewReportsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ReportWasteActivity"
             android:exported="false" />
-
         <activity
             android:name=".DashboardActivity"
             android:exported="false" />
-
         <activity
             android:name=".SignupActivity"
             android:exported="false" />
-
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
     </application>
 
 </manifest>

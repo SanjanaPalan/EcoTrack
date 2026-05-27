@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="24dp"
+        android:paddingTop="50dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -53,6 +54,8 @@
             android:layout_marginTop="16dp"
             android:backgroundTint="#D32F2F"
             android:textColor="#FFFFFF"/>
+
+
 
     </LinearLayout>
 
